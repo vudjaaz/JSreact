@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Message } from './components/message';
 import { useState } from 'react';
+import { CommenstList } from './components/commentsList';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <Message counter={steate} setCounter={setState} text="Push button to increase counter" />
+        <CommenstList />
       </header>
     </div>
   );

@@ -1,0 +1,27 @@
+.commentsContainer {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+   
+}
+
+.comment {
+    box-shadow: 3px -3px 15px 0px rgb(190, 190, 190);
+    position: relative;
+    padding: 10px 30px;
+    width:  700px;
+    border-radius: 12px;
+    background-color: #3b424e;
+}
+
+.deleteBtn {
+    font-weight: 800;
+    position: absolute;
+    right: 10px;
+    border: 1px solid #3b424e;
+    background-color: #3b424e;
+    color: red;
+
+}
